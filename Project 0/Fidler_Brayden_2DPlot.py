@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Opening Iris file
-irisFile = open("_IrisData.txt", "r")
+irisFile = open("IrisData.txt", "r")
 
 #Creating arrays for each type of flower
 seto = np.array([])
