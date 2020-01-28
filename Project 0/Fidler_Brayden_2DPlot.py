@@ -57,8 +57,10 @@ irisPlt.scatter(virg[:, sepalLnCol], virg[:, petalLnCol], marker="x",
                 color="green", label="Virginica")
 irisPlt.legend()
 
-#Saving Plot
+#Saving and Showing Plot
 plt.savefig("Fidler_Brayden_MyPlot.png")
+plt.show()
+irisFile.close()
 
 
 
